@@ -1,0 +1,11 @@
+{% import "_includes/forms" as forms %}
+
+{{ forms.textField({
+    label:        "Please fill in your API key from google maps" | t,
+    class:        'required',
+    id:           'googleMapsApiKey',
+    name:         'googleMapsApiKey',
+    instructions: "Register in google cloud console to get an API key"|t,
+    errors:       settings.getErrors('googleMapsApiKey'),
+    value:        settings.googleMapsApiKey
+}) }}
