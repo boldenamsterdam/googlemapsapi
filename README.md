@@ -1,6 +1,6 @@
 # Google Maps Api wrapper for Craft CMS 3.x
 
-A simple wrapper for google maps server-side service [web services](https://developers.google.com/maps/apis-by-platform) to access them through ajax calls.
+A simple wrapper for google maps server-side [web services](https://developers.google.com/maps/apis-by-platform) to access them through ajax calls.
 
 ## Requirements
 
