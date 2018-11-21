@@ -27,19 +27,19 @@ A valid google maps API key
 ## Using
 
 Use HTTP request to access the endpoints
-`api/googleMaps/geocode/<latitude>,<longitude>` -> Return the places given the latitude and longitude
+- `api/googleMaps/geocode/<latitude>,<longitude>` >> Return the places given the latitude and longitude
 See more info at [Google Geocoding API](https://developers.google.com/maps/documentation/geocoding/start)
-`api/googleMaps/timezone/<latitude>,<longitude>,<timestamp>` -> Return the timezone of a place given the latitude, longitude and timestamp
+- `api/googleMaps/timezone/<latitude>,<longitude>,<timestamp>` >> Return the timezone of a place given the latitude, longitude and timestamp
 See more info at [Google Timezone API](https://developers.google.com/maps/documentation/timezone/start)
-`api/googleMaps/place/autocomplete/<input>` -> Return place autocomplete suggestions given the text input (it can be an address, a place name etc)
+- `api/googleMaps/place/autocomplete/<input>` >> Return place autocomplete suggestions given the text input (it can be an address, a place name etc)
 See more info at [Places Autocomplete API](https://developers.google.com/places/web-service/autocomplete)
-`api/googleMaps/place/text/<input>` -> Return places given the text input (it can be an address, a place name etc)
+- `api/googleMaps/place/text/<input>` >> Return places given the text input (it can be an address, a place name etc)
 See more info at [Places Search API](https://developers.google.com/places/web-service/search)
-`api/googleMaps/place/details/<placeId>` -> Return place details given the place id
+- `api/googleMaps/place/details/<placeId>` >> Return place details given the place id
 See more info at [Places Details API](https://developers.google.com/places/web-service/details)
-`api/googleMaps/elevation/<lat>,<lon>` -> Return elevation information given the latitude and longitude of a location
+- `api/googleMaps/elevation/<lat>,<lon>` >> Return elevation information given the latitude and longitude of a location
 See more info at [Elevation API](https://developers.google.com/maps/documentation/elevation/start)
-`api/googleMaps/distance/<originLat>,<originLon>,<destinationLat>,<destinationLon>,<mode>` -> Return elevation information given the latitude and longitude of origin and 
+- `api/googleMaps/distance/<originLat>,<originLon>,<destinationLat>,<destinationLon>,<mode>` >> Return elevation information given the latitude and longitude of origin and 
 destination. You can optionaly specify the mode (choose between driving, bicycling, walking, transit)
 See more info at [Distance Matrix API](https://developers.google.com/maps/documentation/distance-matrix/start) 
 
