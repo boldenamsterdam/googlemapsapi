@@ -2,7 +2,7 @@
     "name": "bolden/google-maps-api",
     "description": "Craft CMS plugin. Wrapper for the google maps api services.",
     "type": "craft-plugin",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "keywords": [
         "craft",
         "cms",
