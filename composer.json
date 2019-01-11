@@ -1,6 +1,6 @@
 {
     "name": "bolden/google-maps-api",
-    "description": "Craft CMS plugin. Wrapper for the google maps api services.",
+    "description": "Bolden's free plugin for Google Maps server-side web services on Craft CMS 3",
     "type": "craft-plugin",
     "version": "1.0.1",
     "keywords": [

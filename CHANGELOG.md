@@ -1,4 +1,4 @@
-# Google maps api wrapper Changelog
+# GoogleMaps API wrapper Changelog
 
 All notable changes to this project will be documented in this file.
 
