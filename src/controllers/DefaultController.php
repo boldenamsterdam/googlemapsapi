@@ -92,9 +92,9 @@ class DefaultController extends Controller
      * @param string $input
      * @return void
      */
-    public function actionPlaceFromText($input)
+    public function actionPlaceFromText($input, $fields)
     {
-        $result = GoogleMapsApi::getInstance()->googleMapsApiService->placeFromText($input);
+        $result = GoogleMapsApi::getInstance()->googleMapsApiService->placeFromText($input, $fields);
         if ($result['status']) {
             $this->asJson($result['data']);
         } else {

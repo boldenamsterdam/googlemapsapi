@@ -41,8 +41,8 @@ See more info at [Google Timezone API](https://developers.google.com/maps/docume
 * `api/googleMaps/place/autocomplete/<input>`  
 Return place autocomplete suggestions given the text input (it can be an address, a place name etc)  
 See more info at [Places Autocomplete API](https://developers.google.com/places/web-service/autocomplete)
-* `api/googleMaps/place/text/<input>`  
-Return places given the text input (it can be an address, a place name etc)  
+* `api/googleMaps/place/text/<input>/<fields>`  
+Return places given the text input (it can be an address, a place name etc). You can also define a comma sereparted list of the fields to return
 See more info at [Places Search API](https://developers.google.com/places/web-service/search)
 * `api/googleMaps/place/details/<placeId>`  
 Return place details given the place id . 

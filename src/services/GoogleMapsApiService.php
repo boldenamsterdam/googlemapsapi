@@ -103,9 +103,13 @@ class GoogleMapsApiService extends Component
         }
     }
 
-    public function placeFromText($input)
+    public function placeFromText($input, $fields)
     {
-        $result = $this->request('place/findplacefromtext', 'input=' . $input . '&inputtype=textquery&key=' . $this->settings->googleMapsApiKey);
+        $parameters = 'input=' . $input . '&inputtype=textquery&key=' . $this->settings->googleMapsApiKey;
+        if (!empty($fields)) {
+            $parameters .= '&fields=' . $fields;
+        }
+        $result = $this->request('place/findplacefromtext', $parameters);
         if ($result['status']) {
             return [
                 'status' => true,
