@@ -1,4 +1,4 @@
-![Bolden Google Maps API plugin for Craft CMS 3.x](https://bolden.imgix.net/bolden-google-maps-api-plugin-craftcms-1024x512.jpg)
+![Bolden Google Maps API plugin for Craft CMS 3.x](https://www.bolden.nl/uploads/bolden-google-maps-api-plugin-craftcms-1024x512.jpg)
 
 # Google Maps API plugin for Craft CMS 3.x
 
