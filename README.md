@@ -1,9 +1,8 @@
+# ⚠️ This plugin is no longer maintained — Google Maps API plugin for Craft CMS 3.x
+
 ![Bolden Google Maps API plugin for Craft CMS 3.x](https://www.bolden.nl/uploads/bolden-google-maps-api-plugin-craftcms-1024x512.jpg)
 
-# Google Maps API plugin for Craft CMS 3.x
-
 A simple wrapper for Google Maps server-side [web services](https://developers.google.com/maps/apis-by-platform) to access  through AJAX calls.
-
 
 ## Requirements
 
